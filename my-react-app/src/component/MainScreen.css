@@ -1,0 +1,9 @@
+.main-screen {
+    background: #e0ece4;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+  }
