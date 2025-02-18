@@ -3,9 +3,10 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" style={{border:"1px solid black",backgroundColor:"#8BC34A" }}>
+      <div className="header1">
       <div className="user-info">
-        <img src="profile.jpg" alt="User Avatar" className="avatar" />
+        <img src="https://www.pngkey.com/png/full/446-4462649_animated-faces-my-hero-design-clip-art-woman.png" alt="User Avatar" className="avatar" />
         <div className="user-details">
           <h2>Joana Barros</h2>
           <p>Hotel Guest</p>
@@ -20,6 +21,7 @@ const Header = () => {
           <h3>Enjoy some me time</h3>
           <p>Relax with our massages and treatments.</p>
           <p className="small-text">Spa facilities will close in 4 hours</p>
+          </div>
         </div>
       </div>
     </div>
