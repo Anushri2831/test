@@ -11,7 +11,7 @@ const Header = () => {
           <h2>Joana Barros</h2>
           <p>Hotel Guest</p>
         </div>
-        <button className="lock-icon">🔒</button>
+        <div className="lock-icon"></div>
       </div>
 
       <div className="recommended-card">
