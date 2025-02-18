@@ -19,7 +19,7 @@ const AllServices = () => {
             <span className="service-icon">{service.icon}</span>
             <span className="service-name">{service.name}</span>
           <div className="arrow-button" >
-            <AiOutlineArrowRight  style={{border:"1px solid white", borderRadius:"35px", backgroundColor:"white"}} />
+            <AiOutlineArrowRight  style={{border:"1px solid white", borderRadius:"35px", backgroundColor:"black" ,color:"white" , padding:"10px"}} />
           </div>
           </div>
         ))}
