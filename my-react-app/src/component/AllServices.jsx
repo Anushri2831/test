@@ -18,8 +18,8 @@ const AllServices = () => {
           <div key={service.id} className="service-item">
             <span className="service-icon">{service.icon}</span>
             <span className="service-name">{service.name}</span>
-          <div className="arrow-button">
-            <AiOutlineArrowRight />
+          <div className="arrow-button" >
+            <AiOutlineArrowRight  style={{border:"1px solid white", borderRadius:"35px", backgroundColor:"white"}} />
           </div>
           </div>
         ))}

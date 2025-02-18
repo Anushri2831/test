@@ -1,7 +1,8 @@
 .header {
     background: #dde8df;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 30px;
+    width:auto;
   }
   
   .user-info {
@@ -42,21 +43,25 @@
     background: white;
     border-radius: 15px;
     margin-top: 15px;
-    padding: 10px;
+  
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    height:140px;
   }
   
   .recommended-img {
-    width: 100%;
-    border-radius: 10px;
+   
+    border-radius: 20px;
   }
   
   .recommended-content {
-    padding: 10px;
+   
+    margin-left: 20px;
   }
   
   .price-tag {
-    background: #f8b400;
+    background: #c58204ef;
     color: white;
     padding: 5px;
     border-radius: 5px;
