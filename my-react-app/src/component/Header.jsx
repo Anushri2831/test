@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import {FaBookmark} from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -11,7 +12,10 @@ const Header = () => {
           <h2>Joana Barros</h2>
           <p>Hotel Guest</p>
         </div>
-        <div className="lock-icon"></div>
+        <div className="lock-icon">
+          <FaBookmark /> 
+
+        </div>
       </div>
 
       <div className="recommended-card">
