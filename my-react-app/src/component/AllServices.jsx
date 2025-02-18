@@ -1,5 +1,6 @@
 import React from "react";
 import "./AllServices.css";
+import {AiOutlineArrowRight} from 'react-icons/ai';
 
 const services = [
   { id: 1, name: "Facilities", icon: "🏨" },
@@ -17,7 +18,9 @@ const AllServices = () => {
           <div key={service.id} className="service-item">
             <span className="service-icon">{service.icon}</span>
             <span className="service-name">{service.name}</span>
-            <button className="arrow-button">➝</button>
+          <div className="arrow-button">
+            <AiOutlineArrowRight />
+          </div>
           </div>
         ))}
       </div>
