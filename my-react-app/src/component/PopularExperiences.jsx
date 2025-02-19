@@ -4,13 +4,13 @@ import "./PopularExperiences.css";
 const experiences = [
   {
     id: 1,
-    image: "bike.jpg",
+    image: "https://th.bing.com/th/id/OIP.xAPT4zHMj_mUmhhmJt5y2wAAAA?rs=1&pid=ImgDetMain",
     title: "Bike Riding",
     description: "Varied tour options",
   },
   {
     id: 2,
-    image: "dinner.jpg",
+    image: "https://th.bing.com/th/id/OIP.I4ulOhlvfpUWS672ChKYtgHaE7?rs=1&pid=ImgDetMain",
     title: "Dinner at the Table",
     description: "From $30/person",
   },
