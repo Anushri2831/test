@@ -83,8 +83,9 @@
   .accommodations {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 25px;
     font-size: 14px;
+   
   }
   
   .description {

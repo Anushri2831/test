@@ -9,6 +9,11 @@ import { FaUser } from "react-icons/fa";
 import { FaBed } from "react-icons/fa";
 import { FaBath } from "react-icons/fa";
 import { FaRuler } from "react-icons/fa";
+import { FaWifi } from "react-icons/fa";
+import { MdKitchen } from "react-icons/md";
+import { MdBeachAccess } from "react-icons/md";
+import { FaLock } from "react-icons/fa";
+import { FaCopy } from "react-icons/fa";
 
 
 const HotelCard = () => {
@@ -42,14 +47,14 @@ const HotelCard = () => {
           <span><FaRuler /> 53.75 sqm</span>
         </div>
 
-        <h3>Accommodations</h3>
+        <h3 style={{color:"darkgreen"}}>Accommodations</h3>
         <div className="accommodations">
-          <span>📶 Wi-Fi</span>
-          <span>🛏 King-size bed 2x2m</span>
-          <span>🥂 Minibar</span>
-          <span>🌅 Sea side balcony</span>
-          <span>📺 Digital safe</span>
-          <span>🔇 Soundproof windows</span>
+          <span><FaWifi  size={20} style={{color:"white", backgroundColor:"black", borderRadius:"50px", padding:"5px"}}/></span>
+          <span><FaBed size={20} style={{color:"white", backgroundColor:"black", borderRadius:"50px", padding:"5px"}}/></span>
+          <span><MdKitchen size={20} style={{color:"white", backgroundColor:"black", borderRadius:"50px", padding:"5px"}}/></span>
+          <span><MdBeachAccess  size={20} style={{color:"white", backgroundColor:"black", borderRadius:"50px", padding:"5px"}}/></span>
+          <span><FaLock size={20} style={{color:"white", backgroundColor:"black", borderRadius:"50px", padding:"5px"}}/></span>
+          <span><FaCopy size={20} style={{color:"white", backgroundColor:"black", borderRadius:"50px", padding:"5px"}}/></span>
         </div>
 
         <h3>Details</h3>
