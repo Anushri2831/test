@@ -5,7 +5,12 @@
     background: #f8f4ee;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
+    margin: 0 auto;
   }
+
+
+
+  
   
   .hotel-image {
     position: relative;
@@ -38,6 +43,7 @@
     padding: 15px;
     background-color:wheat;
     margin:0 auto;
+    bottom:70px;
   }
   
   .hotel-header {

@@ -5,9 +5,15 @@ import { FaArrowLeft } from "react-icons/fa";
 import {Md360} from "react-icons/md";
 import {FaArrowRight} from "react-icons/fa";
 import { MdLocationOn} from "react-icons/md";
+import { FaUser } from "react-icons/fa";
+import { FaBed } from "react-icons/fa";
+import { FaBath } from "react-icons/fa";
+import { FaRuler } from "react-icons/fa";
+
 
 const HotelCard = () => {
   return (
+    <div className="main">
     <div className="hotel-card">
       <div className="hotel-image">
         <img src="https://th.bing.com/th/id/OIP.uLyHs0eKWMzSD-QKPgYy7QHaE8?w=279&h=186&c=7&r=0&o=5&pid=1.7" alt="Suite"  />
@@ -30,10 +36,10 @@ const HotelCard = () => {
         </div>
 
         <div className="hotel-details">
-          <span>👤 3</span>
-          <span>🛏 2+2</span>
-          <span>🛁 1</span>
-          <span>📏 53.75 sqm</span>
+          <span><FaUser /> 3</span>
+          <span><FaBed /> 2+2</span>
+          <span><FaBath /> 1</span>
+          <span><FaRuler /> 53.75 sqm</span>
         </div>
 
         <h3>Accommodations</h3>
@@ -54,6 +60,7 @@ const HotelCard = () => {
 
         <button className="book-btn">Book the room</button>
       </div>
+    </div>
     </div>
   );
 };
