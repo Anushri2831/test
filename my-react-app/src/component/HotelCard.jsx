@@ -62,7 +62,7 @@ const HotelCard = () => {
           Sophisticated and cozy, these suites were designed to envelop your senses,
           enabling you to free your mind, relax, and enjoy a complete experience.
         </p>
-<div className="button" style={{ borderRadius:"50px", borderColor:"gold", padding:"20px" ,margin:"10px"}}>
+<div className="button" style={{ borderRadius:"50px", borderColor:"gold", padding:"20px" ,margin:"10px", gap:"30px"}}>
         <button className="book-btn">Book the room</button>
         </div>
       </div>
